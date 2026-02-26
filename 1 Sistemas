@@ -1,10 +1,11 @@
 <html>
     <style>
         body{
-            background-color:lightgreen;
+            background-color:gray;
             background-image:url("");
             background-size:100%;
             background-repeat:no-repeat;
+            background-position:center;
         }
         div{
             background-color:black;
@@ -13,10 +14,25 @@
             color:white;
             margin-left:10%;
         }
+        #azul{
+            background-color:blue;
+             width:50%;
+        }
+        #branco{
+            background-color:white;
+             width:50%;
+        }
+        #vermelho{
+            background-color:red;
+            width:50%;
+        }
     </style>
     <body>
         <div>
             <p>Meu primeiro site com div</p>
         </div>
+        <div id="azul"></div>
+        <div id="branco"></div>
+        <div id="vermelho"></div>
     </body>
 </html>

@@ -7,7 +7,8 @@
 </head>
 <body>
     <h1>Glossário</h1>
-    <a href="https://mundoeducacao.uol.com.br/fisica/optica.htm" target="_blank">Óptica</a>
+    <h2>Óptica</h2>
+    <a href="https://mundoeducacao.uol.com.br/fisica/optica.htm" target="_blank">Fonte</a>
     <img src="optica.jpg">
 
     <a href="https://pt.wikipedia.org/wiki/Energia" target="_blank">Energia</a>

@@ -1,54 +1,17 @@
-<html>
-    <style>
-        body{
-            background-color:gray;
-            background-image:url("");
-            background-size:100%;
-            background-repeat:no-repeat;
-            background-position:center;
-        }
-        div{
-            background-color:black;
-            width:80%;
-            height:80px;
-            color:white;
-        }
-        #azul{
-            background-color:green;
-             width:50%;
-             height:80%;
-        }
-        #branco{
-            background-color:white;
-             width:50%;
-             height:80%;
-             background-image:url("https://s5.static.brasilescola.uol.com.br/be/2022/10/escudo-bandeira-mexico.jpg");
-            background-size:80%;
-            background-repeat:no-repeat;
-            background-position:center;
-        }
-        #vermelho{
-            background-color:red;
-            width:50%;
-            height:80%;
-        }
-        section{
-            background-color:purple;
-            width:500px;
-            height:300px;
-            display:flex;
-            border:double 8px;
-            border-color:white;
-        }
-    </style>
-    <body>
-        <div>
-            <p>Meu primeiro site com div</p>
-        </div>
-        <section>
-        <div id="azul"></div>
-        <div id="branco"></div>
-        <div id="vermelho"></div>
-        </section>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossário</title>
+</head>
+<body>
+    <h1>Glossário</h1>
+    <a href="https://mundoeducacao.uol.com.br/fisica/optica.htm" target="_blank">Óptica</a>
+    <img src="optica.jpg">
+
+    <a href="https://pt.wikipedia.org/wiki/Energia" target="_blank">Energia</a>
+    <img src="energia.jpg">
+
+</body>
 </html>

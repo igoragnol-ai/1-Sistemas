@@ -1,19 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
-<link rel="stylesheet" href="css/cssindex.css">
+<html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glossário</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glossário de IA · Inteligência Artificial</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Glossário</h1>
-    <h2>Óptica</h2>
-    <a href="https://mundoeducacao.uol.com.br/fisica/optica.htm" target="_blank">Fonte</a>
-    <img src="optica.jpg">
+    <div class="glossary-wrapper">
+        <!-- cabeçalho -->
+        <div class="header">
+            <div class="title-group">
+                <h1>🧠 Glossário IA</h1>
+                <span class="badge">inteligência artificial</span>
+            </div>
+            <a href="#" class="source-link" target="_blank">
+                <span>📘</span> Referências
+            </a>
+        </div>
 
-    <a href="https://pt.wikipedia.org/wiki/Energia" target="_blank">Energia</a>
-    <img src="energia.jpg">
+        <!-- grade de termos (cards) -->
+        <div class="glossary-grid">
+            <!-- Card 1: Óptica (mantido como exemplo, mas com contexto IA) -->
+            <div class="term-card">
+                <div class="term-header">
+                    <h2>Óptica</h2>
+                    <span class="term-tag">visão computacional</span>
+                </div>
+                <p class="term-description">
+                    Ramo da IA que interpreta informações visuais. Inspira-se na óptica humana para 
+                    reconhecimento de padrões, imagens e vídeos.
+                </p>
+                <!-- imagem ilustrativa (SVG base64) -->
+                <img class="term-image img-placeholder" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='160'><rect width='400' height='160' fill='%23d3e4f7'/><circle cx='120' cy='70' r='28' fill='%23ffffff70'/><circle cx='120' cy='70' r='14' fill='%23ffffffb0'/><rect x='60' y='110' width='120' height='20' fill='%23ffffff50'/><rect x='80' y='130' width='80' height='8' fill='%23ffffff40'/><circle cx='280' cy='60' r='40' fill='%23ffffff50'/><circle cx='280' cy='60' r='20' fill='%23ffffff80'/><path d='M240 120 L320 120 L280 150 Z' fill='%23ffffff40'/></svg>" 
+                     alt="Ilustração óptica IA" />
+                <div class="term-footer">
+                    <a class="term-link" href="https://mundoeducacao.uol.com.br/fisica/optica.htm" target="_blank">
+                        <span>🔗</span> Mundo Educação
+                    </a>
+                </div>
+            </div>
 
+            <!-- Card 2: Energia (contextualizado em IA) -->
+            <div class="term-card">
+                <div class="term-header">
+                    <h2>Energia</h2>
+                    <span class="term-tag">eficiência</span>
+                </div>
+                <p class="term-description">
+                    Na IA, energia refere-se ao consumo computacional e à otimização de algoritmos 
+                    para reduzir custos energéticos em data centers e dispositivos edge.
+                </p>
+                <img class="term-image img-placeholder" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='160'><rect width='400' height='160' fill='%23d0dfee'/><circle cx='100' cy='80' r='22' fill='%23ffffff70'/><circle cx='100' cy='80' r='10' fill='%23ffffffb0'/><path d='M160 50 L220 50 L220 110 L160 110 Z' fill='%23ffffff60'/><rect x='190' y='40' width='30' height='80' fill='%23ffffff50'/><circle cx='310' cy='80' r='30' fill='%23ffffff50'/><circle cx='310' cy='80' r='15' fill='%23ffffff80'/></svg>" 
+                     alt="Ilustração energia IA" />
+                <div class="term-footer">
+                    <a class="term-link" href="https://pt.wikipedia.org/wiki/Energia" target="_blank">
+                        <span>🔗</span> Wikipédia
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 3: Aprendizado de Máquina (ML) – novo termo IA -->
+            <div class="term-card">
+                <div class="term-header">
+                    <h2>ML</h2>
+                    <span class="term-tag">aprendizado</span>
+                </div>
+                <p class="term-description">
+                    Machine Learning: subcampo da IA que permite que sistemas aprendam com dados, 
+                    sem programação explícita. Inclui redes neurais, árvores de decisão e SVM.
+                </p>
+                <img class="term-image img-placeholder" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='160'><rect width='400' height='160' fill='%23c5d9ed'/><circle cx='70' cy='70' r='25' fill='%23ffffff70'/><circle cx='160' cy='50' r='18' fill='%23ffffff80'/><circle cx='250' cy='70' r='22' fill='%23ffffff60'/><circle cx='340' cy='50' r='18' fill='%23ffffff70'/><path d='M80 120 L200 80 L320 120' stroke='%23ffffff80' stroke-width='5' fill='none'/></svg>" 
+                     alt="Ilustração ML" />
+                <div class="term-footer">
+                    <a class="term-link" href="#" target="_blank">
+                        <span>📖</span> Leia mais
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 4: Processamento de Linguagem Natural (NLP) -->
+            <div class="term-card">
+                <div class="term-header">
+                    <h2>NLP</h2>
+                    <span class="term-tag">linguagem</span>
+                </div>
+                <p class="term-description">
+                    Processamento de Linguagem Natural: área da IA que lida com interação entre 
+                    computadores e linguagem humana, como chatbots, tradução e análise de sentimentos.
+                </p>
+                <img class="term-image img-placeholder" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='160'><rect width='400' height='160' fill='%23d3e2f5'/><rect x='60' y='50' width='120' height='40' rx='12' fill='%23ffffff70'/><rect x='200' y='50' width='100' height='40' rx='12' fill='%23ffffff60'/><rect x='60' y='100' width='180' height='30' rx='10' fill='%23ffffff50'/><rect x='260' y='100' width='80' height='30' rx='10' fill='%23ffffff40'/></svg>" 
+                     alt="Ilustração NLP" />
+                <div class="term-footer">
+                    <a class="term-link" href="#" target="_blank">
+                        <span>🔍</span> Explorar
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 5: Visão Computacional (CV) -->
+            <div class="term-card">
+                <div class="term-header">
+                    <h2>Visão</h2>
+                    <span class="term-tag">CV</span>
+                </div>
+                <p class="term-description">
+                    Visão Computacional: capacidade da IA de extrair informações de imagens e vídeos. 
+                    Usada em reconhecimento facial, veículos autônomos e diagnóstico médico.
+                </p>
+                <img class="term-image img-placeholder" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='160'><rect width='400' height='160' fill='%23d5e4f2'/><rect x='70' y='60' width='100' height='60' rx='10' fill='%23ffffff60'/><rect x='190' y='60' width='100' height='60' rx='10' fill='%23ffffff70'/><circle cx='180' cy='90' r='18' fill='%23ffffff90'/></svg>" 
+                     alt="Ilustração Visão Computacional" />
+                <div class="term-footer">
+                    <a class="term-link" href="#" target="_blank">
+                        <span>👁️</span> Saiba mais
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 6: Rede Neural (Deep Learning) -->
+            <div class="term-card">
+                <div class="term-header">
+                    <h2>Rede Neural</h2>
+                    <span class="term-tag">deep learning</span>
+                </div>
+                <p class="term-description">
+                    Estrutura computacional inspirada no cérebro. Redes neurais profundas (deep learning) 
+                    impulsionam avanços em reconhecimento de fala, imagem e IA generativa.
+                </p>
+                <img class="term-image img-placeholder" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='160'><rect width='400' height='160' fill='%23cfe0f0'/><circle cx='60' cy='80' r='15' fill='%23ffffff80'/><circle cx='120' cy='50' r='12' fill='%23ffffff90'/><circle cx='120' cy='110' r='12' fill='%23ffffff90'/><circle cx='190' cy='80' r='18' fill='%23ffffff70'/><circle cx='260' cy='50' r='12' fill='%23ffffff90'/><circle cx='260' cy='110' r='12' fill='%23ffffff90'/><circle cx='330' cy='80' r='15' fill='%23ffffff80'/><path d='M70 80 L120 50 L120 110 L70 80' stroke='%23ffffff80' stroke-width='3' fill='none'/></svg>" 
+                     alt="Ilustração Rede Neural" />
+                <div class="term-footer">
+                    <a class="term-link" href="#" target="_blank">
+                        <span>🧬</span> Detalhes
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- rodapé com créditos / fontes -->
+        <div class="footer-note">
+            <span>📌 Glossário focado em Inteligência Artificial</span>
+            <span>•</span>
+            <span>✏️ Termos atualizados • 2026</span>
+            <span>•</span>
+            <a href="#">🔗 Referências completas</a>
+        </div>
+    </div>
 </body>
 </html>
